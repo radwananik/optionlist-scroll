@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BootStrap 4 First Project</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    </head>
+
+<body>
+ 
+    
+    <section class="mortageHOme_rate_list">
+        <div class="container">
+            <div class="row">
+                    <div class="mortage-inner-grid">
+                        <form class="form" name="mortratesbystate">
+                            <div class="form__dropdown dropdown--simple large">
+                                <select class="select custom-select-frid" id="ratesbystate customratesbystate" name="ratesbystate">
+                                    <option value="/Mortgage-Rates/?state=AL">Alabama</option>
+                                    <option value="/Mortgage-Rates/?state=AK">Alaska</option>
+                                    <option value="/Mortgage-Rates/?state=AZ">Arizona</option>
+                                    <option value="/Mortgage-Rates/?state=AR">Arkansas</option>
+                                    <option value="/Mortgage-Rates/?state=CA">California</option>
+                                    <option value="/Mortgage-Rates/?state=CO">Colorado</option>
+                                    <option value="/Mortgage-Rates/?state=CT">Connecticut</option>
+                                    <option value="/Mortgage-Rates/?state=DE">Delaware</option>
+                                    <option value="/Mortgage-Rates/?state=FL">Florida</option>
+                                    <option value="/Mortgage-Rates/?state=GA">Georgia</option>
+                                    <option value="/Mortgage-Rates/?state=HI">Hawaii</option>
+                                    <option value="/Mortgage-Rates/?state=ID">Idaho</option>
+                                    <option value="/Mortgage-Rates/?state=IL">Illinois</option>
+                                    <option value="/Mortgage-Rates/?state=IN">Indiana</option>
+                                    <option value="/Mortgage-Rates/?state=IA">Iowa</option>
+                                    <option value="/Mortgage-Rates/?state=KS">Kansas</option>
+                                    <option value="/Mortgage-Rates/?state=KY">Kentucky</option>
+                                    <option value="/Mortgage-Rates/?state=LA">Louisiana</option>
+                                    <option value="/Mortgage-Rates/?state=ME">Maine</option>
+                                    <option value="/Mortgage-Rates/?state=MD">Maryland</option>
+                                    <option value="/Mortgage-Rates/?state=MA">Massachusetts</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <style>
+.mortageHOme_rate_list{
+       background-color: rgb(242, 242, 242);
+    padding: 8em 11em;
+}
+.mortage-inner-grid{
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+}
+.custom-grid-select{
+    padding: 10px;
+}
+.compare-widget .form__dropdown {
+    width: 30rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form__dropdown {
+    position: relative;
+}
+.compare-widget .form__dropdown.large .select {
+    font-size: 2.4rem;
+}
+
+.form__dropdown.dropdown--simple select {
+    width: 100%;
+    border-bottom: 1px solid #9b9b9b;
+    color: #4a4a4a;
+    font-family: "Keiss Text Light", "Times New Roman", serif;
+    line-height: 1.5;
+}
+.form select {
+    border-radius: 0;
+}
+.form__dropdown.dropdown--simple::after {
+    top: 20%;
+    color: #f7841b;
+    content: '';
+    font-size: 1.8rem;
+}
+
+.form__dropdown::after {
+    position: absolute;
+    right: 1rem;
+    font-family: 'font-awesome';
+    pointer-events: none;
+}
+select.custom-select-frid{
+    height: 50px;
+    border: 0;
+    padding: 10px;
+    border-radius: 2px;
+   
+}    
+</style>
+   
+    
+    <script src="dist/js/jquery-3.1.1.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="dist/js/parallax.js"></script>
+    <script src="dist/js/owl.carousel.min.js"></script>
+    <script src="dist/js/main.js"></script>
+</body>
+
+</html>
